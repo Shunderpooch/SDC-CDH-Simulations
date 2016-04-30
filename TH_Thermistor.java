@@ -1,12 +1,12 @@
 
-public class THRM_Thermistor extends Module{
+public class TH_Thermistor extends Module{
 	double inputVoltage;
 	double current; 
 	double outputVoltage;
 	double temperature;//of component its connected to
 	double resistance;
 	
-	public THRM_Thermistor(double mass, double cost, String protocol, double powerCapacity){
+	public TH_Thermistor(double mass, double cost, String protocol, double powerCapacity){
 		super(mass, cost, protocol, powerCapacity);
 		this.inputVoltage = 0.0;
 		this.outputVoltage = 0.0;

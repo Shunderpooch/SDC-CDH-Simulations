@@ -1,4 +1,4 @@
 
-public interface THRM {
+public interface TH {
 	double get_thermal_reading();
 }

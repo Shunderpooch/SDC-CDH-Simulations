@@ -6,12 +6,12 @@
  * @author qwertey6
  *
  */
-public class THRM_Example_Thermo_Submodule extends Module implements THRM {
+public class TH_Example_Thermo_Submodule extends Module implements TH {
 
 	/**
 	 * 
 	 */
-	public THRM_Example_Thermo_Submodule(double mass, double cost, String protocol, double powerCapacity) {
+	public TH_Example_Thermo_Submodule(double mass, double cost, String protocol, double powerCapacity) {
 		// We fill out all of the super-ed fields.
 		
 		

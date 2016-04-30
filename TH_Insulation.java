@@ -1,7 +1,7 @@
 
-public class THRM_Insulation extends Module implements THRM{
+public class TH_Insulation extends Module implements TH{
 	
-	public THRM_Insulation(double mass, double cost, String protocol, double powerCapacity){
+	public TH_Insulation(double mass, double cost, String protocol, double powerCapacity){
 		super(mass, cost, protocol, powerCapacity);
 	}
 	

@@ -1,12 +1,12 @@
 
-public class THRM_HeatingPads extends Module implements THRM{
+public class TH_HeatingPads extends Module implements TH{
 	
 	double inputVoltage;
 	//double current; 
 	double outputVoltage;
 	double temperature;
 	
-	public THRM_HeatingPads(double mass, double cost, String protocol, double powerCapacity){
+	public TH_HeatingPads(double mass, double cost, String protocol, double powerCapacity){
 		super(mass, cost, protocol, powerCapacity);
 		this.inputVoltage = 0.0;
 		this.outputVoltage = 0.0;
